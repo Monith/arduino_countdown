@@ -1,5 +1,7 @@
 //Countdown Script
+//Reference to http://www.hacktronics.com/Tutorials/arduino-and-7-segment-led.html
 
+//Sets up Arduino with LED's
 void setup() {               
   pinMode(2, OUTPUT);  
   pinMode(3, OUTPUT);
@@ -13,6 +15,7 @@ void setup() {
 }
 
 
+//Code that writes and starts the countdown
 void loop() {
  // write '9'
  digitalWrite(2, 1);
